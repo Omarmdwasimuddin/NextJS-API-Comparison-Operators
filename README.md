@@ -112,3 +112,17 @@ const readData = await prisma.employee.findMany({
         });
 ```
 ---
+
+###
+![](https://imgur.com/4nQZC1D.png)
+
+```bash
+const readData = await prisma.employee.findMany({
+            where: {
+                salary: {
+                    notIn: [35000, 70000],
+                }
+            }
+        });
+```
+---
