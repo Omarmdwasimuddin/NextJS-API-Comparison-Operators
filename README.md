@@ -154,3 +154,31 @@ const readData = await prisma.employee.findMany({
         });
 ```
 ---
+
+###
+![](https://imgur.com/bkOWQ68.png)
+
+```bash
+const readData = await prisma.employee.findMany({
+            where: {
+                name: {
+                    startsWith: "I",
+                }
+            }
+        });
+```
+---
+
+###
+![](.png)
+
+```bash
+const readData = await prisma.employee.findMany({
+            where: {
+                name: {
+                    startsWith: "I",
+                }
+            }
+        });
+```
+---
