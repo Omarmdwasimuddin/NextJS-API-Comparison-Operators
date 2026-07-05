@@ -1,6 +1,6 @@
-## NextJS API---> Comparison Operators
+## NextJS API---> Prisma Filtering with Comparison Operators
 
-###
+### equals
 ![](https://imgur.com/ZOkkBkC.png)
 
 ```bash
@@ -14,7 +14,7 @@ const readData = await prisma.employee.findMany({
 ```
 ---
 
-###
+### not
 ![](https://imgur.com/AJMQq7G.png)
 
 ```bash
@@ -28,7 +28,7 @@ const readData = await prisma.employee.findMany({
 ```
 ---
 
-###
+### notIn (Single Value)
 ![](https://imgur.com/AJMQq7G.png)
 
 ```bash
@@ -43,7 +43,7 @@ const readData = await prisma.employee.findMany({
 ---
 
 
-###
+### Less Than (lt)
 ![](https://imgur.com/YtPtsLd.png)
 
 ```bash
@@ -57,7 +57,7 @@ const readData = await prisma.employee.findMany({
 ```
 ---
 
-###
+### Less Than or Equal (lte)
 ![](https://imgur.com/L0hLqrM.png)
 
 ```bash
@@ -71,7 +71,7 @@ const readData = await prisma.employee.findMany({
 ```
 ---
 
-###
+### Greater Than (gt)
 ![](https://imgur.com/zz7gdnT.png)
 
 ```bash
@@ -85,7 +85,7 @@ const readData = await prisma.employee.findMany({
 ```
 ---
 
-###
+### Greater Than or Equal (gte)
 ![](https://imgur.com/UzJRVWf.png)
 
 ```bash
@@ -99,7 +99,7 @@ const readData = await prisma.employee.findMany({
 ```
 ---
 
-###
+### in
 ![](https://imgur.com/Vd2OAwk.png)
 
 ```bash
@@ -113,7 +113,7 @@ const readData = await prisma.employee.findMany({
 ```
 ---
 
-###
+### notIn
 ![](https://imgur.com/4nQZC1D.png)
 
 ```bash
@@ -127,7 +127,7 @@ const readData = await prisma.employee.findMany({
 ```
 ---
 
-###
+### Range Filter (gt + lt)
 ![](https://imgur.com/UtJ5Ptx.png)
 
 ```bash
@@ -141,7 +141,7 @@ const readData = await prisma.employee.findMany({
 ```
 ---
 
-###
+### contains
 ![](https://imgur.com/9u0Z8Gn.png)
 
 ```bash
@@ -155,7 +155,7 @@ const readData = await prisma.employee.findMany({
 ```
 ---
 
-###
+### startsWith
 ![](https://imgur.com/bkOWQ68.png)
 
 ```bash
@@ -169,7 +169,7 @@ const readData = await prisma.employee.findMany({
 ```
 ---
 
-###
+### endsWith
 ![](https://imgur.com/9VO88Jj.png)
 
 ```bash
