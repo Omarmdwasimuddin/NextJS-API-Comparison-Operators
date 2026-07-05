@@ -170,13 +170,13 @@ const readData = await prisma.employee.findMany({
 ---
 
 ###
-![](.png)
+![](https://imgur.com/9VO88Jj.png)
 
 ```bash
 const readData = await prisma.employee.findMany({
             where: {
                 name: {
-                    startsWith: "I",
+                    endsWith: "I",
                 }
             }
         });
