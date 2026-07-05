@@ -140,3 +140,17 @@ const readData = await prisma.employee.findMany({
         });
 ```
 ---
+
+###
+![](https://imgur.com/9u0Z8Gn.png)
+
+```bash
+const readData = await prisma.employee.findMany({
+            where: {
+                name: {
+                    contains: "Wasim",
+                }
+            }
+        });
+```
+---
